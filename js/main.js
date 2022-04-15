@@ -10,20 +10,4 @@ mobileNavButton.addEventListener('click', function(){
     document.body.classList.toggle('no-scroll')
 })
 
-/* --------- Video nav --------- */
-
-const videoStoryButton = document.querySelector('#video-story-button')
-const videoFile = document.querySelector('#video-story')
-
-
-videoStoryButton.addEventListener('click', function() {
-
-    if (videoFile.paused) {
-        videoFile.play()
-    } else {
-        videoFile.pause()
-    }
-
-    
-})
 
